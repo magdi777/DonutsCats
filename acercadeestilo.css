@@ -1,0 +1,103 @@
+
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFDDCC;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #FE7BE5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.donasimg{
+    text-align: center;
+    font-size: 25px;
+}
+img {
+  width: 1700px;
+  border-radius: 25px;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Estilos para la sección de menú */
+#menu {
+  margin: 20px auto;
+  text-align: center;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Estilos para el pie de página */
+footer {
+  text-align: center;
+  background-color: #D67BFF;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
